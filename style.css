@@ -14,16 +14,17 @@
     --cor4: #000000;
     --font1: 'montserrat';
 }
- body, html {
-    height: 100vh;
-    background-image: linear-gradient(to right top, #d162a1, #c76cb7, #b476c6, #a281da, #8d8ddf, #8aa7ec, #6eadf5, #55b8f9, #4fc6f1, #31ceee, #30dce8, #48ede2);
+ body, html{
+    height: 100%;
  }
 
 body {
     color: white;
     letter-spacing:2px;
     font-family: var(--font1);
-    font-size: 1em;    
+    font-size: max(23px, 3vw);
+    background-image: linear-gradient(to right top, #d162a1, #c76cb7, #b476c6, #a281da, #8d8ddf, #8aa7ec, #6eadf5, #55b8f9, #4fc6f1, #31ceee, #30dce8, #48ede2);
+    overflow: hidden;
 }
 
 .corpo{
@@ -39,7 +40,7 @@ body {
 }
 
 .quiz>h2{
-    font-size: 1.8em;
+    font-size: min(20px, 4vw);
 }
 
 .btn{
@@ -52,7 +53,7 @@ body {
     border: 4px solid #d67fb0;
     border-radius:15px;
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: min(16px, 2.5vw);
     font-family: var(--font1);
     transition: .3s;
     letter-spacing:2px;
@@ -72,6 +73,11 @@ body {
     cursor: no-drop;
 }
 
+#frase{
+    margin: 40px;
+    font-size: min(16px, 4vw);
+}
+
 #proximo {
     display: none;
     margin: 5px auto;
@@ -81,8 +87,8 @@ body {
     color: #ffffff;
     border: 3px solid #51e0d7;
     border-radius:20px;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 10px 0;
+    font-size: 2.5vw;
     font-family: var(--font1);
     transition: .5s;
     letter-spacing:2px;
@@ -128,6 +134,7 @@ footer{
     justify-content: center;
     align-items: center;
     z-index: 1001;
+    font-size: min(16px, 4vw);
 }
 
 

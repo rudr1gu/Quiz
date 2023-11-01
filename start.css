@@ -14,16 +14,15 @@
 }
 body, html {
     height: 100vh;
-    background-image: linear-gradient(to right top, #d162a1, #c76cb7, #b476c6, #a281da, #8d8ddf, #8aa7ec, #6eadf5, #55b8f9, #4fc6f1, #31ceee, #30dce8, #48ede2);
-
  }
 
 body {
     color: white;
     letter-spacing:2px;
     font-family: var(--font1);
-    font-size: 1em;
     overflow: hidden;
+    background-image: linear-gradient(to right top, #d162a1, #c76cb7, #b476c6, #a281da, #8d8ddf, #8aa7ec, #6eadf5, #55b8f9, #4fc6f1, #31ceee, #30dce8, #48ede2);
+
 }
 
 h1{
@@ -32,7 +31,7 @@ h1{
     text-shadow: 1px 1px black;
     color: #ffffff;
     margin-top: 5%;
-    font-size: 30pt;
+    font-size: max(16px, 4vw);
     text-shadow: 0px 0px 0 rgb(205,205,205),1px 1px 0 rgb(195,195,195),2px 2px 0 rgb(185,185,185),3px 3px 0 rgb(175,175,175),
     4px 4px  0 rgb(165,165,165),5px 5px 4px rgba(0,0,0,0.45),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
 }
@@ -40,12 +39,12 @@ h1{
     margin: 60px auto;
     width: 40%;
     font-family: var(--font1);
-    font-size: 24pt;
+    font-size: max(18px, 3vw);
     display: block;
     cursor: pointer;
     color: white;
     border-radius:15px;
-    padding: 15px 25px;
+    padding: 5px 0;
     transition: .3s;
     letter-spacing:2px;
     background-color: #51e0d7;
@@ -59,7 +58,7 @@ h1{
     font-family: var(--font1);
     text-shadow: 1px 1px black;
     color: #ffffff;
-    font-size: 19pt;
+    font-size: max(16px, 2vw);
     text-align: center;
     margin-top: 3%;
     font-weight: bolder;
@@ -71,7 +70,7 @@ h1{
     font-family: var(--font1);
     text-shadow: 1px 1px black;
     color: #ffffff;
-    font-size: 19pt;
+    font-size: max(18px, 2vw);
     text-align: center;
     font-weight: bolder;
     text-shadow: 0px 0px 0 rgb(211,211,211),
