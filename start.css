@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor0: #011C40;
+    --cor1: #012340;
+    --cor2: #db3eb1;
+    --cor3: #10121c00;
+    --cor4: #000000;
+    --font1: 'montserrat';
+}
+body, html {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #d162a1, #c76cb7, #b476c6, #a281da, #8d8ddf, #8aa7ec, #6eadf5, #55b8f9, #4fc6f1, #31ceee, #30dce8, #48ede2);
+
+ }
+
+body {
+    color: white;
+    letter-spacing:2px;
+    font-family: var(--font1);
+    font-size: 1em;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-family: "montserrat";
+    text-shadow: 1px 1px black;
+    color: #ffffff;
+    margin-top: 5%;
+    font-size: 30pt;
+    text-shadow: 0px 0px 0 rgb(205,205,205),1px 1px 0 rgb(195,195,195),2px 2px 0 rgb(185,185,185),3px 3px 0 rgb(175,175,175),
+    4px 4px  0 rgb(165,165,165),5px 5px 4px rgba(0,0,0,0.45),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+.start{
+    margin: 60px auto;
+    width: 40%;
+    font-family: var(--font1);
+    font-size: 24pt;
+    display: block;
+    cursor: pointer;
+    color: white;
+    border-radius:15px;
+    padding: 15px 25px;
+    transition: .3s;
+    letter-spacing:2px;
+    background-color: #51e0d7;
+    box-shadow: rgba(0, 0, 0, 0.26) 6px 6px 10px;
+    border: 4px solid #51e0d7;
+    text-shadow: 0px 0px 0 rgb(211,211,211),
+    1px 1px  0 rgb(167,167,167),2px 2px 1px rgba(0,0,0,0),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2);
+    
+}
+.quiz{
+    font-family: var(--font1);
+    text-shadow: 1px 1px black;
+    color: #ffffff;
+    font-size: 19pt;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bolder;
+    text-shadow: 0px 0px 0 rgb(211,211,211),
+    1px 1px  0 rgb(167,167,167),2px 2px 1px rgba(0,0,0,0),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2)
+}
+.desafio{
+    margin-top: 6%;
+    font-family: var(--font1);
+    text-shadow: 1px 1px black;
+    color: #ffffff;
+    font-size: 19pt;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 0px 0px 0 rgb(211,211,211),
+    1px 1px  0 rgb(167,167,167),2px 2px 1px rgba(0,0,0,0),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2)
+    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    color: black;
+    background-color: #7ef9f1;
+    font-weight: bold;
+    border-color: #7ef9f1;
+    box-shadow: none;
+}

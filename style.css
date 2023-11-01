@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor0: #011C40;
+    --cor1: #012340;
+    --cor2: #db3eb1;
+    --cor3: #10121c00;
+    --cor4: #000000;
+    --font1: 'montserrat';
+}
+ body, html {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #d162a1, #c76cb7, #b476c6, #a281da, #8d8ddf, #8aa7ec, #6eadf5, #55b8f9, #4fc6f1, #31ceee, #30dce8, #48ede2);
+
+ }
+
+body {
+    color: white;
+    letter-spacing:2px;
+    font-family: var(--font1);
+    font-size: 1em;
+    overflow: hidden;
+    
+}
+
+.corpo{
+    width: 70%;
+    height: 100%;
+    margin: 5vh auto 0;
+    border-radius: 30px;
+    text-align: center;   
+}
+
+.quiz{
+    padding: 40px 0;
+}
+
+.quiz>h2{
+    font-size: 1.8em;
+}
+
+.btn{
+    display: block;
+    margin: 40px auto;
+    width: 90%;
+    cursor: pointer;
+    transition: 0.7s;
+    color: white;
+    border: 4px solid #d67fb0;
+    border-radius:15px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-family: var(--font1);
+    transition: .3s;
+    letter-spacing:2px;
+    background-color: #d67fb0;
+    box-shadow: rgba(0, 0, 0, 0.26) 6px 6px 10px;
+    
+}
+.btn:hover {
+    color: black;
+    background-color: #f795cc;
+    font-weight: bold;
+    border-color: #f795cc;
+    box-shadow: none;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#proximo {
+    display: none;
+    margin: 5px auto;
+    width: 20%;
+    min-width: 180px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 3px solid #51e0d7;
+    border-radius:20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: var(--font1);
+    transition: .5s;
+    letter-spacing:2px;
+    background-color: #51e0d7;
+    box-sizing: border-box;
+    margin-top: 45px;
+    box-shadow: rgba(0, 0, 0, 0.26) 6px 6px 10px;
+    
+    
+}
+
+#proximo:hover {
+    color: black;
+    background-color: #7ef9f1;
+    font-weight: bold;
+    border-color: #72f7ee;
+    box-shadow: none;
+}
+
+.correct{
+    color: rgb(0, 79, 0);
+    background-color: rgb(114, 199, 114);
+    border-color: rgb(114, 199, 114);
+}
+
+.incorrect{
+    color: rgb(78, 3, 3);
+    background-color: rgb(249, 28, 28);
+    border-color: rgb(249, 28, 28);
+    
+}
+#alternativasButton{
+    margin-top: 60px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: #3686ff;
+    min-height: 200px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+
+
+#questoes{
+    color: #ffffff;
+    text-shadow: 0px 0px 0 rgb(211,211,211),
+    1px 1px  0 rgb(167,167,167),2px 2px 1px rgba(0,0,0,0),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2);
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover{
+    color: black;
+  }
+
+
+
+  footer .wave{
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(img/wave.png);
+    background-size: 1000px 100px;
+  }
+
+  footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+  }
+
+  footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 3s linear infinite;
+  }
+
+  footer .wave#wave3{
+    z-index: 998;
+    opacity: 0.7;
+    bottom: 15;
+    animation: animateWave_03 3s linear infinite;
+  }
+
+  footer .wave#wave4{
+    z-index: 997;
+    opacity: 0.2;
+    bottom: 20px;
+    animation: animateWave_04 4s linear infinite;
+  }
+  footer .wave#wave5{
+    z-index: 998;
+    opacity: 0.6;
+    bottom: 15;
+    animation: animateWave_03 2s linear infinite;
+  }
+
+  footer .wave#wave6{
+    z-index: 997;
+    opacity: 0.3;
+    bottom: 20px;
+    animation: animateWave_04 6s linear infinite;
+  }
+
+  @keyframes animateWave{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+  }
+
+  @keyframes animateWave_02{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+  }
+  @keyframes animateWave_03{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+  }
+
+  @keyframes animateWave_04{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+  }
+
+  @keyframes animateWave_05{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+  }
+
+  @keyframes animateWave_06{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+  }
+
+  footer>ul>li{
+    display: inline-flex;
+    justify-content: flex-end;
+    
+  }
+
+

@@ -1,0 +1,66 @@
+1 Qual a definição da palavra BIOS?
+a - Back Input-Output Server
+b - Basic Input-Output Server
+c - Basic Input-Output System
+d - Back Input-Output System
+
+2 -Qual a definição de HTML
+a - Hypertext Language Serial 
+b- Hypertext Markup Language **
+c- Hypertext Mainframe Language 
+d- Hypertext Mainframe List 
+
+3- Qual a Definação CSS?
+a- Cascading Server Sheets 
+b- Cascading Style Sheets **
+c- Cascading Sheets Style
+d- Cascading Server Style
+
+4 - Quais hardware precisa usar pasta termica
+a- Processador e Fonte
+b- Placa de video e Processador **
+c- Placa de video e Memória RAM 
+d- Processador e HD (Hard Disk)
+
+5- Qual a função da memória RAM? 
+a- Armazenar temporariamente toda a informação que o computador precisar. **
+b- Armazenar permanentemente toda a informação que o computador precisar.
+c- Otimizar as funções gráficas do computador
+d- Otimizar a velocidade de Internet
+
+6- Qual imagem representa o Prompt de comando? 
+a- img certa
+b- img paint
+c- img VSC
+d- img Coredrawl
+
+7- Qual sistema operacional é mais utilizado?
+a- Android **
+b- IOS
+c- Windows
+d- Linux
+
+8- para onde vai os dados armazenados na nuvem? 
+a- Servidor **
+b- Internet 
+c- HD/SSD 
+d- Supercomputadores
+
+9- Quais são os dois servidores mais utilizado do mundo:
+a- Apache e Nginx **
+b- Figma e Adobe Spark
+c- Bootstrap e Git
+d- Ubuntu e CentOS
+
+10- Qual a função do software GIMP? 
+a- Editar videos
+b- Editar fotos
+c- Legendar videos 
+d- Otimizar a velocidade da internet via IP/DHCP
+
+
+
+
+
+
+
