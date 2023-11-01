@@ -17,16 +17,13 @@
  body, html {
     height: 100vh;
     background-image: linear-gradient(to right top, #d162a1, #c76cb7, #b476c6, #a281da, #8d8ddf, #8aa7ec, #6eadf5, #55b8f9, #4fc6f1, #31ceee, #30dce8, #48ede2);
-
  }
 
 body {
     color: white;
     letter-spacing:2px;
     font-family: var(--font1);
-    font-size: 1em;
-    overflow: hidden;
-    
+    font-size: 1em;    
 }
 
 .corpo{
@@ -60,9 +57,9 @@ body {
     transition: .3s;
     letter-spacing:2px;
     background-color: #d67fb0;
-    box-shadow: rgba(0, 0, 0, 0.26) 6px 6px 10px;
-    
+    box-shadow: rgba(0, 0, 0, 0.26) 6px 6px 10px; 
 }
+
 .btn:hover {
     color: black;
     background-color: #f795cc;
@@ -70,6 +67,7 @@ body {
     border-color: #f795cc;
     box-shadow: none;
 }
+
 .btn:disabled{
     cursor: no-drop;
 }
@@ -92,8 +90,6 @@ body {
     box-sizing: border-box;
     margin-top: 45px;
     box-shadow: rgba(0, 0, 0, 0.26) 6px 6px 10px;
-    
-    
 }
 
 #proximo:hover {
@@ -144,15 +140,13 @@ footer{
 a{
     text-decoration: none;
     color: white;
-  }
+}
 
-  a:hover{
+a:hover{
     color: black;
-  }
-
-
-
-  footer .wave{
+}
+  
+footer .wave{
     position: absolute;
     top: -60px;
     left: 0;
@@ -160,35 +154,37 @@ a{
     height: 100px;
     background: url(img/wave.png);
     background-size: 1000px 100px;
-  }
+}
 
-  footer .wave#wave1{
+footer .wave#wave1{
     z-index: 1000;
     opacity: 1;
     bottom: 0;
     animation: animateWave 4s linear infinite;
-  }
+ }
 
-  footer .wave#wave2{
+footer .wave#wave2{
     z-index: 999;
     opacity: 0.5;
     bottom: 10px;
     animation: animateWave_02 3s linear infinite;
-  }
+}
 
-  footer .wave#wave3{
+footer .wave#wave3{
     z-index: 998;
     opacity: 0.7;
     bottom: 15;
     animation: animateWave_03 3s linear infinite;
-  }
+}
 
-  footer .wave#wave4{
+footer .wave#wave4{
     z-index: 997;
     opacity: 0.2;
     bottom: 20px;
     animation: animateWave_04 4s linear infinite;
   }
+
+
   footer .wave#wave5{
     z-index: 998;
     opacity: 0.6;
