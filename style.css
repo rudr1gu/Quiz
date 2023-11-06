@@ -129,14 +129,42 @@ footer{
     left: 0;
     display: none;
     background: #3686ff;
-    min-height: 200px;
-    padding: 20px 50px;
+    height: 320px;
+    min-height: 300px;
     justify-content: center;
     align-items: center;
     z-index: 1001;
-    font-size: min(16px, 4vw);
+    font-family: var(--font1);
+    font-size: min(16px, 2vw);
+    text-align: justify;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+.dev, .sobrenos, .tec{ 
+    padding: 17px;
+}
+
+.dev, .sobrenos{
+    border-right: 1px solid white;
+}
+
+.menu{
+    columns: 1;
+    list-style: none;
+}
+
+.titulof{
+    font-size: min(18px, 2.5vw);
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
 
 #questoes{
     color: #ffffff;
@@ -273,8 +301,7 @@ footer .wave#wave4{
 
   footer>ul>li{
     display: inline-flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;   
   }
 
 

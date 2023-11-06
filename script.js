@@ -366,7 +366,7 @@ function startEasy(){ //função para iniciar o nivel facil
             let frase = document.getElementById("frase")
 
             if (score < 5){
-                frase.innerHTML = "Esse nível é mais complicado mesmo, mas você consegue!"
+                frase.innerHTML = "Esse nível é mais complicado mesmo, você consegue!"
             }
             else if (score < 9 ){
                 frase.innerHTML = "Você é melhor que isso, leia com atenção."
@@ -565,17 +565,20 @@ function startEasy(){ //função para iniciar o nivel facil
             let frase = document.getElementById("frase")
 
             if (score < 5){
-                frase.innerHTML = "Isso realmente pra quem é um gênio da programação, mas não desista!"
+                frase.innerHTML = "Não desanime. Mostre para o que você veio!"
             }
-            else if (score < 9 ){
-                frase.innerHTML = "Não se deixe vencer pela pressão, mostre para o que você veio!"
+            else if (score < 8){
+                frase.innerHTML = "Você se saiu bem, mas pode melhorar!"
+            }
+            else if( score < 10){
+                frase.innerHTML = "Parabéns, foi por pouco!"
             }
             else {
-                frase.innerHTML = "Você realmente é o técnico. Parabéns você é um gênio! "
-            }
+                frase.innerHTML = "Você foi extraordinário! Parabéns."
         }
 
     }
+}
 
     proximo.addEventListener("click", ()=>{
         if(currentQuestionIndex < questoes.length){
@@ -586,4 +589,4 @@ function startEasy(){ //função para iniciar o nivel facil
     })
 
     startQuiz()
-    }
+}
