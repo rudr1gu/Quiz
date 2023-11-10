@@ -1,0 +1,14 @@
+Desenvolvido por
+Marcus Vannucchi
+Otavio Fernandes
+Tarcísio Neves
+Rodrigo Santos
+Maria Eduarda
+
+
+Esse projeto foi desenvolvido em HTML JAVA SCRIPT e CSS, com intuito de testar o conhecimento do  internauta de uma forma descontraída.
+no formato de um quiz. esperamos que todos gostem e principalmente se divirtam.
+
+Etec Zona leste.
+
+Centro Paula Sousa.  

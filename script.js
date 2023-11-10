@@ -1,7 +1,7 @@
 function startEasy(){ //função para iniciar o nivel facil
     const questoes = [ 
        {
-           questoes: "Qual atalho usar para copiar e colar?",
+           questoes: "Qual atalho é utilizado para copiar e colar?",
            alternativas: [
                {text: "CTRL C + CTRL C", correct: false},
                {text: "CTRL C + CTRL X", correct: false},
@@ -10,12 +10,12 @@ function startEasy(){ //função para iniciar o nivel facil
            ]
        },
        {
-           questoes: "Para que serve o roteador wi-fi?",
+           questoes: "Para que serve o roteador Wi-Fi?",
            alternativas: [
                {text: "Para gerar internet cabeada.", correct: false},
-               {text: "Para gerar internet móvel.", correct: false},
-               {text: "Para gerar conexão sem cabos.", correct: true},
-               {text: "Para operadora roubar dados pessoais. ", correct: false},
+               {text: "Para gerar internet móvel", correct: false},
+               {text: "Para gerar conexão sem cabos", correct: true},
+               {text: "Para operadora roubar seus dados pessoais", correct: false},
            ]   
        },
        {
@@ -28,34 +28,34 @@ function startEasy(){ //função para iniciar o nivel facil
            ]   
        },
        {
-           questoes: "O que é um pen-drive?",
+           questoes: "Para que serve o Pen Drive?",
            alternativas: [
-               {text: "Armazenamento Online.", correct: false},
-               {text: "Armazenamento Rápido.", correct: false},
-               {text: "Armazenamento Bluetooth.", correct: false},
-               {text: "Armazenamento Portátil.", correct: true},
+               {text: "Armazenamento Online", correct: false},
+               {text: "Armazenamento Rápido", correct: false},
+               {text: "Armazenamento Bluetooth", correct: false},
+               {text: "Armazenamento Portátil", correct: true},
            ]   
        },
        {
-           questoes: "Qual site mais usado para pesquisa?",
+           questoes: "Qual o site mais utilizado para pesquisas?",
            alternativas: [
                {text: "Safari", correct: false},
-               {text: "Pera site", correct: false},
+               {text: "Opera", correct: false},
                {text: "Google", correct: true},
                {text: "Firefox", correct: false},
            ]   
        },
        {
-           questoes: "Qual nome da pessoa que invade computadores?",
+           questoes: "Qual o termo utilizado para quem invade computadores?",
            alternativas: [
                {text: "Técnico de celular", correct: false},
                {text: "Hacker", correct: true},
-               {text: "Desenvolvedor Web", correct: false},
+               {text: "Desenvolvedor web", correct: false},
                {text: "Ladrão de casa", correct: false},
            ]   
        },
        {
-           questoes: "Para qual palavra usamos a abreviação: 'Add'?",
+           questoes: "Para qual palavra utilizamos a abreviação 'ADD'?",
            alternativas: [
                {text: "Adicionar", correct: true},
                {text: "Adidas ", correct: false},
@@ -64,7 +64,7 @@ function startEasy(){ //função para iniciar o nivel facil
            ]   
        },
        {
-           questoes: "Qual nome do sistema operacional mobile mais utilizado hoje em dia?",
+           questoes: "Qual o sistema operacional mais utilizado nos smartphones?",
            alternativas: [
                {text: "Windows", correct: false},
                {text: "Peralix", correct: false},
@@ -73,7 +73,7 @@ function startEasy(){ //função para iniciar o nivel facil
            ]   
        },
        {
-           questoes: "Qual o celular é da marca Apple?",
+           questoes: "Qual é um celular da Apple?",
            alternativas: [
                {text: "Galaxy A04", correct: false},
                {text: "Moto G30", correct: false},
@@ -82,12 +82,12 @@ function startEasy(){ //função para iniciar o nivel facil
            ]   
        },
        {
-           questoes: "Quais componentes externos de um computador?",
+           questoes: "Quais os componentes externos de um computador?",
            alternativas: [
-               {text: "Processador, teclado, monitor e fonte.", correct: false},
-               {text: "Caixa de som, teclado, mouse e impressora.", correct: true},
-               {text: "Impressora, placa-mãe e placa de vídeo.", correct: false},
-               {text: "Caixa de som, teclado, mouse, impressora e placa-mãe.", correct: false},
+               {text: "Processador, teclado, monitor e fonte", correct: false},
+               {text: "Caixa de som, teclado, mouse e impressora", correct: true},
+               {text: "Impressora, placa-mãe e placa de vídeo", correct: false},
+               {text: "Caixa de som, teclado, mouse, impressora e placa-mãe", correct: false},
            ]   
        },
    ];
@@ -170,13 +170,13 @@ function startEasy(){ //função para iniciar o nivel facil
             let frase = document.getElementById("frase")
 
             if (score < 5){ 
-                frase.innerHTML = "Você pode tentar novamene e se superar!"
+                frase.innerHTML = "Você pode melhorar sua pontuação, tente novamente!"
             }
             else if (score < 9 ){
-                frase.innerHTML = "Você consegue mais do que isso!"
+                frase.innerHTML = "Você consegue mais, não desista!"
             }
             else {
-                frase.innerHTML = "Isso foi perfeito, por que não tentar um nível mais díficil? "
+                frase.innerHTML = "Parabéns!!! Por que não tenta um nível mais difícil? "
             }
         }
     }
@@ -196,7 +196,7 @@ function startEasy(){ //função para iniciar o nivel facil
    function startMed(){
     const questoes = [
         {
-            questoes: "Qual é o sistema operacional dos celulares da apple?",
+            questoes: "Qual é o sistema operacional utilizado nos smartphones da Apple?",
             alternativas: [
                 {text: "Windows", correct: false},
                 {text: "iCloud", correct: false},
@@ -205,21 +205,21 @@ function startEasy(){ //função para iniciar o nivel facil
             ]
         },
         {
-            questoes: "Qual a última versão do windows?",
+            questoes: "Qual é a última versão do Windows?",
             alternativas: [
+                {text: "Windows 10", correct: false},
                 {text: "Windows 11", correct: true},
                 {text: "Windows 12", correct: false},
                 {text: "Windows 13", correct: false},
-                {text: "Windows 14", correct: false},
             ]   
         },
         {
-            questoes: "Quais desses contém no pacote office?",
+            questoes: "Quais softwares pertencem ao Microsoft 365?",
             alternativas: [
-                {text: "Word, Excel, Power Point e Photoshop.", correct: false},
-                {text: "Excel, Power Point, Microsoft Teams e Word.", correct: true},
-                {text: "Noteapd, Word, Photoshop e Excel.", correct: false},
-                {text: "Paint, Windows, Apple e Microsoft Teams.", correct: false},
+                {text: "Word, Excel, PowerPoint e Photoshop", correct: false},
+                {text: "Excel, PowerPoint, Microsoft Teams e Word", correct: true},
+                {text: "Notepad, Word, Photoshop e Excel", correct: false},
+                {text: "Paint, Windows, Apple e Microsoft Teams", correct: false},
             ]   
         },
         {
@@ -232,57 +232,57 @@ function startEasy(){ //função para iniciar o nivel facil
             ]   
         },
         {
-            questoes: "O que é um sistema operacional?",
+            questoes: "O que é um sistema Operacional?",
             alternativas: [
-                {text: "Conjunto de programas com a função de gerenciar um sistema.", correct: true},
-                {text: "Um conjunto de peças de um computador.", correct: false},
-                {text: "Uma linguagem de programação.", correct: false},
-                {text: "Um conjunto de aplicativos para escritório.", correct: false},
+                {text: "Conjunto de programas com a função de gerenciar um sistema", correct: true},
+                {text: "Um conjunto de peças de um computador", correct: false},
+                {text: "Uma linguagem de programação", correct: false},
+                {text: "Um conjunto de aplicativos para escritório", correct: false},
             ]   
         },
         {
-            questoes: "O que é um hardware?",
+            questoes: "Qual a definição de Hardware?",
             alternativas: [
-                {text: "Um jogo que foi tendência nos anos 2000.", correct: false},
+                {text: "Um jogo que foi tendência nos anos 2000", correct: false},
                 {text: "Componentes lógicos", correct: false},
                 {text: "Aplicativos", correct: false},
-                {text: "Componentes físicos, internos ou externos.", correct: true},
+                {text: "Componentes físicos, internos ou externos", correct: true},
             ]   
         },
         {
-            questoes: "O que é um software?",
+            questoes: "Qual a definição de Software?",
             alternativas: [
-                {text: "Um periférico de um computador.", correct: false},
-                {text: "Componentes físicos, internos ou externos.", correct: false},
-                {text: "Conjunto de componentes lógicos.", correct: true},
-                {text: "O editor de texto mais famoso do mundo.", correct: false},
+                {text: "Um periférico de um computador", correct: false},
+                {text: "Componentes físicos, internos ou externos", correct: false},
+                {text: "Conjunto de componentes lógicos", correct: true},
+                {text: "O editor de texto mais famoso do mundo", correct: false},
             ]   
         },
         {
-            questoes: "Para que serve gabinete?",
+            questoes: "Para que serve o Gabinete?",
             alternativas: [
-                {text: "Para melhorar o desempenho do computador.", correct: false},
-                {text: "Para aumentar a memória do computador.", correct: false},
-                {text: "Para colocar o computador em cima.", correct: false},
-                {text: "Para armazenar os componentes do computador.", correct: true},
+                {text: "Para melhorar o gráfico", correct: false},
+                {text: "Para aumentar a memória do computador", correct: false},
+                {text: "Para colocar o computador em cima", correct: false},
+                {text: "Para armazenar os componentes do computador", correct: true},
             ]   
         },
         {
-            questoes: "Qual a principal diferença de HD para o SSD",
+            questoes: "Qual a principal diferença do HD para o SSD?",
             alternativas: [
-                {text: "O SSD oferece mais velocidade de leitura/gravação.", correct: true},
-                {text: "O SSD tem ventilação própria.", correct: false},
-                {text: "Somente o design.", correct: false},
-                {text: "O HD oferece mais velocidade de leitura/gravação.", correct: false},
+                {text: "O SSD oferece mais velocidade de leitura/gravação", correct: true},
+                {text: "O SSD tem ventilação própria", correct: false},
+                {text: "Somente o design", correct: false},
+                {text: "O HD oferece mais velocidade de leitura/gravação", correct: false},
             ]   
         },
         {
             questoes: "Quais destes são softwares para edição de arte?",
             alternativas: [
-                {text: "Photoshop, Canva e Notepad.", correct: false},
-                {text: "GIMP, Photoshop e Canva.", correct: true},
-                {text: "Canva, Word e Excel.", correct: false},
-                {text: "PowerPoint, Photoshop e Canva.", correct: false},
+                {text: "Photoshop, Canva e Notepad", correct: false},
+                {text: "GIMP, Photoshop e Canva", correct: true},
+                {text: "Canva, Word e Excel", correct: false},
+                {text: "PowerPoint, Photoshop e Canva", correct: false},
             ]   
         },
     ];
@@ -366,13 +366,13 @@ function startEasy(){ //função para iniciar o nivel facil
             let frase = document.getElementById("frase")
 
             if (score < 5){
-                frase.innerHTML = "Esse nível é mais complicado mesmo, mas você consegue!"
+                frase.innerHTML = "Esse nível é mais complicado, que tal tentar o Fácil?"
             }
             else if (score < 9 ){
-                frase.innerHTML = "Você é melhor que isso, leia com atenção."
+                frase.innerHTML = "Você pode melhorar, foi por pouco!"
             }
             else {
-                frase.innerHTML = "Você é um gênio, vá para o próximo nível e teste a fundo o seu conhecimento! "
+                frase.innerHTML = "Parece que você entende do assunto, que tal tentar o Difícil?"
             }
         }
     }
@@ -395,7 +395,7 @@ function startEasy(){ //função para iniciar o nivel facil
 
     const questoes = [
         {
-            questoes: "Qual a definição de BIOS?",
+            questoes: "O que significa a sigla BIOS?",
             alternativas: [
                 {text: "Back Input-Output Server", correct: false},
                 {text: "Basic Input-Output Server", correct: false},
@@ -404,7 +404,7 @@ function startEasy(){ //função para iniciar o nivel facil
             ]
         },
         {
-            questoes: "Qual a definição de HTML",
+            questoes: "O que significa a sigla HTML?",
             alternativas: [
                 {text: "Hypertext Language Serial", correct: false},
                 {text: "Hypertext Markup Language", correct: true},
@@ -413,7 +413,7 @@ function startEasy(){ //função para iniciar o nivel facil
             ]   
         },
         {
-            questoes: "Qual a Definação CSS?",
+            questoes: "O que significa a sigla CSS?",
             alternativas: [
                 {text: "Cascading Server Sheets", correct: false},
                 {text: "Cascading Style Sheets", correct: true},
@@ -422,21 +422,21 @@ function startEasy(){ //função para iniciar o nivel facil
             ]   
         },
         {
-            questoes: "Quais hardware precisa usar pasta termica",
+            questoes: "Quais hardwares utilizam pasta térmica?",
             alternativas: [
-                {text: "Processador e Fonte.", correct: false},
-                {text: "Placa de video e Processador.", correct: true},
-                {text: "Placa de video e Memória RAM.", correct: false},
-                {text: "Processador e HD (Hard Disk).", correct: false},
+                {text: "Processador e Fonte", correct: false},
+                {text: "Placa de video e Processador", correct: true},
+                {text: "Placa de video e Memória RAM", correct: false},
+                {text: "Processador e HD (Hard Disk)", correct: false},
             ]   
         },
         {
             questoes: "Qual a função da memória RAM?",
             alternativas: [
-                {text: "Armazenar temporariamente toda a informação que o computador precisar.", correct: true},
-                {text: "Armazenar permanentemente toda a informação que o computador precisar.", correct: false},
-                {text: "Otimizar as funções gráficas do computador.", correct: false},
-                {text: "Otimizar a velocidade de Internet.", correct: false},
+                {text: "Armazenar temporariamente toda a informação que o computador precisar", correct: true},
+                {text: "Armazenar permanentemente toda a informação que o computador precisar", correct: false},
+                {text: "Otimizar as funções gráficas do computador", correct: false},
+                {text: "Otimizar a velocidade de Internet", correct: false},
             ]   
         },
         {
@@ -449,7 +449,7 @@ function startEasy(){ //função para iniciar o nivel facil
             ]   
         },
         {
-            questoes: "Qual sistema operacional é mais utilizado?",
+            questoes: "Qual o sistema operacional mais utilizado no mundo?",
             alternativas: [
                 {text: "Android", correct: true},
                 {text: "IoS", correct: false},
@@ -458,16 +458,16 @@ function startEasy(){ //função para iniciar o nivel facil
             ]   
         },
         {
-            questoes: "Para onde vai os dados armazenados na nuvem?",
+            questoes: "Para onde vão os dados armazenados na nuvem?",
             alternativas: [
                 {text: "Internet", correct: false},
                 {text: "Memoria RAM", correct: false},
-                {text: "Supercomputadores", correct: false},
+                {text: "Céu", correct: false},
                 {text: "Servidor", correct: true},
             ]   
         },
         {
-            questoes: "Quais são os dois servidores mais utilizado do mundo?",
+            questoes: "Quais destes são serviços instalados em servidores?",
             alternativas: [
                 {text: "Apache e Nginx", correct: true},
                 {text: "Figma e Adobe Spark", correct: false},
@@ -481,7 +481,7 @@ function startEasy(){ //função para iniciar o nivel facil
                 {text: "Editar videos", correct: false},
                 {text: "Editar fotos", correct: true},
                 {text: "Legendar videos", correct: false},
-                {text: "Otimizar a velocidade da internet via IP/DHCP.", correct: false},
+                {text: "Otimizar a velocidade da internet via IP/DHCP", correct: false},
             ]   
         },
     ];
@@ -565,17 +565,20 @@ function startEasy(){ //função para iniciar o nivel facil
             let frase = document.getElementById("frase")
 
             if (score < 5){
-                frase.innerHTML = "Isso realmente pra quem é um gênio da programação, mas não desista!"
+                frase.innerHTML = "Não desanime. Mostre para o que você veio!"
             }
-            else if (score < 9 ){
-                frase.innerHTML = "Não se deixe vencer pela pressão, mostre para o que você veio!"
+            else if (score < 8){
+                frase.innerHTML = "Você se saiu bem, mas pode melhorar!"
+            }
+            else if( score < 10){
+                frase.innerHTML = "Parabéns, foi por pouco!"
             }
             else {
-                frase.innerHTML = "Você realmente é o técnico. Parabéns você é um gênio! "
-            }
+                frase.innerHTML = "Você foi extraordinário! Parabéns."
         }
 
     }
+}
 
     proximo.addEventListener("click", ()=>{
         if(currentQuestionIndex < questoes.length){
@@ -586,4 +589,4 @@ function startEasy(){ //função para iniciar o nivel facil
     })
 
     startQuiz()
-    }
+}

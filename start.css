@@ -30,21 +30,21 @@ h1{
     font-family: "montserrat";
     text-shadow: 1px 1px black;
     color: #ffffff;
-    margin-top: 5%;
-    font-size: max(16px, 4vw);
+    margin-top: 10%;
+    font-size: min(50px, 4vw);
     text-shadow: 0px 0px 0 rgb(205,205,205),1px 1px 0 rgb(195,195,195),2px 2px 0 rgb(185,185,185),3px 3px 0 rgb(175,175,175),
     4px 4px  0 rgb(165,165,165),5px 5px 4px rgba(0,0,0,0.45),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
 }
 .start{
-    margin: 60px auto;
-    width: 40%;
+    margin: 80px auto;
+    width: 45%;
     font-family: var(--font1);
     font-size: max(18px, 3vw);
     display: block;
     cursor: pointer;
     color: white;
     border-radius:15px;
-    padding: 5px 0;
+    padding: 10px 0;
     transition: .3s;
     letter-spacing:2px;
     background-color: #51e0d7;
@@ -58,19 +58,19 @@ h1{
     font-family: var(--font1);
     text-shadow: 1px 1px black;
     color: #ffffff;
-    font-size: max(16px, 2vw);
+    font-size: min(25px, 2vw);
     text-align: center;
-    margin-top: 3%;
+    margin-top: 7%;
     font-weight: bolder;
     text-shadow: 0px 0px 0 rgb(211,211,211),
     1px 1px  0 rgb(167,167,167),2px 2px 1px rgba(0,0,0,0),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2)
 }
 .desafio{
-    margin-top: 6%;
+    margin-top: 8%;
     font-family: var(--font1);
     text-shadow: 1px 1px black;
     color: #ffffff;
-    font-size: max(18px, 2vw);
+    font-size: min(25px, 2vw);
     text-align: center;
     font-weight: bolder;
     text-shadow: 0px 0px 0 rgb(211,211,211),

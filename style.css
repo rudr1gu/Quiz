@@ -40,7 +40,7 @@ body {
 }
 
 .quiz>h2{
-    font-size: min(20px, 4vw);
+    font-size: min(24px, 4vw);
 }
 
 .btn{
@@ -74,20 +74,23 @@ body {
 }
 
 #frase{
-    margin: 40px;
-    font-size: min(16px, 4vw);
+    margin-top: 70px;
+    font-size: min(18px, 4vw);
+    color: #ffffff;
+    text-shadow: 0px 0px 0 rgb(211,211,211),
+    1px 1px  0 rgb(167,167,167),2px 2px 1px rgba(0,0,0,0),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2);
 }
 
 #proximo {
     display: none;
     margin: 5px auto;
-    width: 20%;
+    width: 250px;
     min-width: 180px;
     cursor: pointer;
     color: #ffffff;
     border: 3px solid #51e0d7;
     border-radius:20px;
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: min(16px, 2.5vw);
     font-family: var(--font1);
     transition: .5s;
@@ -96,6 +99,7 @@ body {
     box-sizing: border-box;
     margin-top: 45px;
     box-shadow: rgba(0, 0, 0, 0.26) 6px 6px 10px;
+    margin-bottom: 30px;
 }
 
 #proximo:hover {
@@ -122,21 +126,63 @@ body {
     margin-top: 60px;
 }
 
+@media screen and (max-width: 500px) {
+    .btn{
+        padding: 5px;
+        margin: 25px auto;
+    }
+
+    #proximo{
+        min-width: 120px;
+        
+    }
+}
+
 footer{
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    display: none;
-    background: #3686ff;
-    min-height: 200px;
-    padding: 20px 50px;
+    display: none; 
+    background: rgba(250, 247, 247, 0.45);
+    height: 180px;
+    min-height: 160px;
     justify-content: center;
     align-items: center;
     z-index: 1001;
-    font-size: min(16px, 4vw);
+    font-family: var(--font1);
+    font-size: min(15px, 2vw);
+    text-align: left;
+    color: #ffffff;
+    text-shadow: 0px 1px 3px #b443ff;
 }
 
+.dev, .sobrenos, .tec{ 
+    padding: 17px;
+}
+
+.dev, .sobrenos{
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu{
+    columns: 1;
+    list-style: none;
+}
+
+.titulof{
+    font-size: min(18px, 2.5vw);
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 0;
+}
 
 #questoes{
     color: #ffffff;
@@ -144,6 +190,7 @@ footer{
     1px 1px  0 rgb(167,167,167),2px 2px 1px rgba(0,0,0,0),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2);
     
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -152,10 +199,9 @@ a{
 a:hover{
     color: black;
 }
-  
 footer .wave{
     position: absolute;
-    top: -60px;
+    top: -100px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -165,45 +211,30 @@ footer .wave{
 
 footer .wave#wave1{
     z-index: 1000;
-    opacity: 1;
+    opacity: 0.25;
     bottom: 0;
     animation: animateWave 4s linear infinite;
  }
 
 footer .wave#wave2{
     z-index: 999;
-    opacity: 0.5;
+    opacity: 0.2;
     bottom: 10px;
     animation: animateWave_02 3s linear infinite;
 }
 
 footer .wave#wave3{
     z-index: 998;
-    opacity: 0.7;
+    opacity: 0.15;
     bottom: 15;
     animation: animateWave_03 3s linear infinite;
 }
 
 footer .wave#wave4{
     z-index: 997;
-    opacity: 0.2;
+    opacity: 0.1;
     bottom: 20px;
     animation: animateWave_04 4s linear infinite;
-  }
-
-
-  footer .wave#wave5{
-    z-index: 998;
-    opacity: 0.6;
-    bottom: 15;
-    animation: animateWave_03 2s linear infinite;
-  }
-
-  footer .wave#wave6{
-    z-index: 997;
-    opacity: 0.3;
-    bottom: 20px;
-    animation: animateWave_04 6s linear infinite;
   }
 
   @keyframes animateWave{
@@ -249,32 +280,28 @@ footer .wave#wave4{
     }
   }
 
-  @keyframes animateWave_05{
-    0%
-    {
-        background-position-x: 1000px;
-    }
-    100%
-    {
-        background-position-x: 0px;
-    }
-  }
-
-  @keyframes animateWave_06{
-    0%
-    {
-        background-position-x: 0px;
-    }
-    100%
-    {
-        background-position-x: 1000px;
-    }
-  }
 
   footer>ul>li{
     display: inline-flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;   
   }
 
 
+  .etec{
+    background-color: #000000;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1005;
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+  }
+
+  h5{
+    color: #b74bff;
+    text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.74);
+  }
