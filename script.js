@@ -366,11 +366,7 @@ function startEasy(){ //função para iniciar o nivel facil
             let frase = document.getElementById("frase")
 
             if (score < 5){
-<<<<<<< HEAD
                 frase.innerHTML = "Esse nível é mais complicado, que tal tentar o Fácil?"
-=======
-                frase.innerHTML = "Esse nível é mais complicado mesmo, você consegue!"
->>>>>>> 39f7ab298ad3cff7038beba2a05834f557a37295
             }
             else if (score < 9 ){
                 frase.innerHTML = "Você pode melhorar, foi por pouco!"

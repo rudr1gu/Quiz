@@ -143,31 +143,18 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
-<<<<<<< HEAD
     display: none; 
     background: rgba(250, 247, 247, 0.45);
     height: 180px;
     min-height: 160px;
-=======
-    display: none;
-    background: #3686ff;
-    height: 320px;
-    min-height: 300px;
->>>>>>> 39f7ab298ad3cff7038beba2a05834f557a37295
     justify-content: center;
     align-items: center;
     z-index: 1001;
     font-family: var(--font1);
-<<<<<<< HEAD
     font-size: min(15px, 2vw);
     text-align: left;
     color: #ffffff;
     text-shadow: 0px 1px 3px #b443ff;
-=======
-    font-size: min(16px, 2vw);
-    text-align: justify;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
->>>>>>> 39f7ab298ad3cff7038beba2a05834f557a37295
 }
 
 .dev, .sobrenos, .tec{ 
@@ -175,11 +162,7 @@ footer{
 }
 
 .dev, .sobrenos{
-<<<<<<< HEAD
     border-right: 1px solid rgba(255, 255, 255, 0.2);
-=======
-    border-right: 1px solid white;
->>>>>>> 39f7ab298ad3cff7038beba2a05834f557a37295
 }
 
 .menu{
@@ -194,20 +177,12 @@ footer{
 
 .grid {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: 0.5fr 1fr 0.5fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-bottom: 0;
 }
-=======
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
->>>>>>> 39f7ab298ad3cff7038beba2a05834f557a37295
 
 #questoes{
     color: #ffffff;
