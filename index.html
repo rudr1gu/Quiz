@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz || Feira-Técnologica</title>
     <!--================CSS EXTERNO================-->
-    <link rel="stylesheet" href="style.css">
-    <!--================Fontes================-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <!--=====================ICONES================-->
-    <!--BOXICONS.COM-->
-    <link rel="shortcut icon" href="img/favicon6.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <section class="corpo">
+
+    <section class="start" id="iniciar">
+        <h1>Seja Bem-Vindo ao Quiz!</h1>
+        <br>
+        <p class="quiz">Este quiz foi elaborado para desafiar seus conhecimentos gerais na área da tecnologia.</p>
+        <p class="desafio">Você está preparado para este desafio?</p>
+
+        <button id="start" onclick="iniciar()">START</button>
+    </section>
+    <div id="linhatempo">
+    </div>
+
+    <section class="corpo" id="corpo">
+        
         <article class="quiz">
+            <div id="linhatempo">
+            </div>
+
             <h2 id="questoes">Selecione o nível de dificuldade:</h2>
             <div id="alternativasButton">
                 <button class="btn" onclick="startEasy()">Fácil</button>
@@ -31,15 +36,7 @@
             <p id="frase"></p>    
         </article>
     </section>
-
-    <script src="script.js"></script>
-
     <footer id="creditos">
-        <div class="wave" id="wave1"></div>
-        <div class="wave" id="wave2"></div>
-        <div class="wave" id="wave3"></div>
-        <div class="wave" id="wave4"></div>
-
         <section class="grid">
             <div class="dev">
                 <h5 class="titulof">Desenvolvido por:</h5>
@@ -69,6 +66,7 @@
             <p>Etec Zona Leste | Centro Paula Souza &copy; 2023 </p>
         </div>
     </footer>
-    
+
+    <script src="index.js"></script>  
 </body>
 </html>
