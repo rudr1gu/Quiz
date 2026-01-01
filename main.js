@@ -23,37 +23,38 @@ function createQuestions(difficulty) {
     return questoes;
 }
 
-function startQuiz(questoes) {
+let questoes = [];
+let currentQuestionIndex = 0;
+let score = 0;
+
+function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     proximo.innerHTML = "Próximo"
 
-    showQuestion(questoes);
+    showQuestion();
 }
 
 const questoesElement = document.getElementById("questoes")
 const alternativasButton = document.getElementById("alternativasButton")
 const proximo = document.getElementById("proximo")
 
-let currentQuestionIndex = 0;
-let score = 0;
-
 function startEasy() {
-    const questoes = createQuestions("easy");
+    questoes = createQuestions("easy");
     console.log(questoes);
-    startQuiz(questoes);
+    startQuiz();
 }
 
 function startMed() {
-    const questoes = createQuestions("medium");
+    questoes = createQuestions("medium");
     console.log(questoes);
-    startQuiz(questoes);
+    startQuiz();
 }
 
 function startHard() {
-    const questoes = createQuestions("hard");
+    questoes = createQuestions("hard");
     console.log(questoes);
-    startQuiz(questoes);
+    startQuiz();
 }
 
 let facil = document.getElementById("facil")
@@ -66,7 +67,7 @@ let dificil = document.getElementById("dificil")
 dificil.addEventListener("click", startHard)
 
 
-function showQuestion(questoes) {
+function showQuestion() {
     resetState();
     console.log("array tem: ", questoes.length)
     let currentQuestion = questoes[currentQuestionIndex]
@@ -116,13 +117,8 @@ function selectAlternativas(e) {
 function updateTimeline(isCorrect) {
     const linhaDoTempo = document.getElementById("linhatempo");
 
-    // Cria um elemento de ponto na linha do tempo
     const ponto = document.createElement("div");
-
-    // Adiciona a classe apropriada com base na resposta
     ponto.classList.add(isCorrect ? "correct" : "incorrect");
-
-    // Adiciona o ponto à linha do tempo
     linhaDoTempo.appendChild(ponto);
 
     const numero = document.createElement("span");
